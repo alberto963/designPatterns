@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{ArrayDisplayFormat.java[ArrayDisplayFormat"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="143"/>
+      <y="78"/>
+   </type>
+   <type>
+      <name="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{MathFormat.java[MathFormat"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="393"/>
+      <y="220"/>
+   </type>
+   <type>
+      <name="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{MyArray.java[MyArray"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="218"/>
+      <y="358"/>
+   </type>
+   <type>
+      <name="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{StandardFormat.java[StandardFormat"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="12"/>
+      <y="223"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{MathFormat.java[MathFormat"/>
+      <targetType="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{ArrayDisplayFormat.java[ArrayDisplayFormat"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{StandardFormat.java[StandardFormat"/>
+      <targetType="=StrategyArrayPrint/src<example.designPattern.startegy.arrayPrint{ArrayDisplayFormat.java[ArrayDisplayFormat"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

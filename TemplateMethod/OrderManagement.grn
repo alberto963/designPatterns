@@ -1,0 +1,39 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{ItemStock.java[ItemStock"/>
+      <height="128"/>
+      <width="249"/>
+      <x="144"/>
+      <y="42"/>
+   </type>
+   <type>
+      <name="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{GeneralItem.java[GeneralItem"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="3"/>
+      <y="293"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{GeneralItem.java[GeneralItem"/>
+      <targetType="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{ItemStock.java[ItemStock"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{VeryRestrictedItem.java[VeryRestrictedItem"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="428"/>
+      <y="294"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{VeryRestrictedItem.java[VeryRestrictedItem"/>
+      <targetType="=TemplateMethod/src<example.designPattern.templateMethod.orderManagment{ItemStock.java[ItemStock"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

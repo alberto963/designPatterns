@@ -1,0 +1,10 @@
+
+<Network Name="name">
+	<Node Name="name" Icon="icon" Points="5" >
+		<Set-Address Value="value" ></Set-Address>
+		<Set-Address />
+	</Node>
+
+	<Connection Name="name" Address1="value1" Address2="value2"></Connection>
+	<Node></Node>
+	<Connection></Connection></Network>

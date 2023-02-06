@@ -1,0 +1,32 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=FlyweightEventQueue/src<example.pattern.flyweight.eventQueue{EventSymbol.java[EventSymbol"/>
+      <height="112"/>
+      <width="324"/>
+      <x="68"/>
+      <y="362"/>
+   </type>
+   <type>
+      <name="=FlyweightEventQueue/src<example.pattern.flyweight.eventQueue{EventSymbolFactory.java[EventSymbolFactory"/>
+      <height="113"/>
+      <width="326"/>
+      <x="465"/>
+      <y="219"/>
+   </type>
+   <type>
+      <name="=FlyweightEventQueue/src<example.pattern.flyweight.eventQueue{FlyweightComparisonExample.java[FlyweightComparisonExample"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="116"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=FlyweightEventQueue/src<example.pattern.flyweight.eventQueue{FlyweightComparisonExample.java[FlyweightComparisonExample"/>
+      <targetType="=FlyweightEventQueue/src<example.pattern.flyweight.eventQueue{EventSymbol.java[EventSymbol"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

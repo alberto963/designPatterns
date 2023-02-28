@@ -26,7 +26,7 @@ public class OrientedErBuider extends ModelBuilder {
 
 	@Override
 	void addCardMin(String entity, String relation, String value) {
-		
+
 		super.addCardMin(entity, relation, value);
 	}
 
@@ -39,7 +39,7 @@ public class OrientedErBuider extends ModelBuilder {
 
 	@Override
 	void addEntity(String name) {
-		
+
 		super.addEntity(name);
 	}
 
@@ -52,7 +52,7 @@ public class OrientedErBuider extends ModelBuilder {
 
 	@Override
 	void addRelationship(String from, String to, String name) {
-		
+
 		super.addRelationship(from, to, name);
 	}
 
@@ -65,7 +65,7 @@ public class OrientedErBuider extends ModelBuilder {
 	@Override
 	Object getModel() {
 		OrientedDiagram orientedDiagram = new OrientedDiagram();
-		
+
 		return orientedDiagram;
 	}
 }

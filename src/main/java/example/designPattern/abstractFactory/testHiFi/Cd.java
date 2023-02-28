@@ -1,6 +1,4 @@
-/**
- *
- */
+
 package example.designPattern.abstractFactory.testHiFi;
 
 /**
@@ -13,25 +11,13 @@ package example.designPattern.abstractFactory.testHiFi;
  */
 public class Cd implements Media {
 
-	/**
-	 *
-	 */
 	public Cd() {
-
 	}
 
-	/**
-	 *
-	 */
 	void write(Sound sound) {
-
 	}
 
-	/**
-	 *
-	 */
-	example.designPattern.abstractFactory.testHiFi.Sound read() {
+	Sound read() {
 		return null;
 	}
-
 }

@@ -1,38 +1,23 @@
-/**
- *
- */
 package example.designPattern.abstractFactory.testDualDb;
 
-/**
- * @author apetazzi
- *
- */
 public class Client {
 
 	private ConnectionFactory connectionFactory;
 
-	/**
-	 *
-	 */
-	public Client(ConnectionFactory connectionFactory2) {
-		connectionFactory = connectionFactory2;
+	public Client(ConnectionFactory connectionFactory) {
+		this.connectionFactory = connectionFactory;
 	}
 
-	/**
-	 * @param fileName
-	 *
-	 */
-	String loadData(Boolean local, String fileName) {
+	public String loadData(Boolean local, String fileName) {
 		String data = null;
 		if (local) {
 			Local lc = connectionFactory.getLocalConnection();
 			data = lc.load(fileName);
 		} else {
 			Remote rc = connectionFactory.getRemoteConnection();
-			data = rc.load(fileName);
+			data = rc.connect2WWW(fileName);
 		}
 
 		return data;
 	}
-
 }

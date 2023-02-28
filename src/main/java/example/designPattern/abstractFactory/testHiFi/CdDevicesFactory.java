@@ -8,7 +8,7 @@ package example.designPattern.abstractFactory.testHiFi;
  *         Implementa l�AbstractFactory, fornendo le operazioni che creano e
  *         restituiscono gli oggetti corrispondenti ai prodotti specifici,
  *         ovvero i prodotti concreti (ConcreteProduct). In questo caso
- *         restituisce i prodotti di relativi al CD.
+ *         restituisce i prodotti relativi al CD.
  */
 public class CdDevicesFactory implements DevicesFactory {
 

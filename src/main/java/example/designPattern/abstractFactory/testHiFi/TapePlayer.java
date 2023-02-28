@@ -28,7 +28,7 @@ public class TapePlayer implements Player {
 	 */
 
 	public void insert(Media media) {
-		
+
 
 	}
 
@@ -39,7 +39,7 @@ public class TapePlayer implements Player {
 	 */
 
 	public void play() {
-		
+
 
 	}
 

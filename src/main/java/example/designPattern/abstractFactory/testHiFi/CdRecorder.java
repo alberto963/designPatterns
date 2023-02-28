@@ -29,7 +29,7 @@ public class CdRecorder implements Recorder {
 	 */
 
 	public void insert(Media media) {
-		
+
 
 	}
 
@@ -40,7 +40,7 @@ public class CdRecorder implements Recorder {
 	 */
 
 	public void record(Sound sound) {
-		
+
 
 	}
 

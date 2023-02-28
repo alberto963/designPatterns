@@ -1,0 +1,16 @@
+package example.designPattern.abstractFactory.testHiFi;
+
+/**
+ *
+ * @author apetazzi
+ *
+ *         AbstractProduct: interfaccia Media
+ *
+ *         Dichiara le operazioni che caratterizzano i diversi tipi generici di
+ *         prodotti. In particolare Media � una <bold>marker interface</bold>
+ *         che serve per identificare i supporti di registrazione.
+ *
+ */
+public interface Media {
+
+}

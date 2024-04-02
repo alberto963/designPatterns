@@ -1,20 +1,9 @@
-/**
- *
- */
 package example.designPattern.builder.erDiagram;
 
-/**
- * @author apetazzi
- *
- */
 public class ErDirector {
 
 	private ModelBuilder modelBuilder;
 
-	/**
-	 * @param builder TODO
-	 *
-	 */
 	Object getModel() {
 		modelBuilder.addEntity("E1");
 		modelBuilder.addEntity("E2");
@@ -24,7 +13,7 @@ public class ErDirector {
 		return modelBuilder.getModel();
 	}
 
-	public ErDirector(ModelBuilder modelBuilder2) {
-		modelBuilder = modelBuilder2;
+	public ErDirector(ModelBuilder modelBuilder) {
+		this.modelBuilder = modelBuilder;
 	}
 }

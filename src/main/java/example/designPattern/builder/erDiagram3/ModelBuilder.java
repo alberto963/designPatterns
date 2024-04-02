@@ -1,4 +1,4 @@
-package example.designPattern.builder.erDiagram;
+package example.designPattern.builder.erDiagram3;
 
 public abstract class ModelBuilder {
 

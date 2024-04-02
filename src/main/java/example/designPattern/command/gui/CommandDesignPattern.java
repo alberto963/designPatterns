@@ -119,11 +119,7 @@ public class CommandDesignPattern extends JFrame {
 		setVisible(true);
 	}
 
-	public static void main(String[] args) {
-		try {
-			new CommandDesignPattern();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	public static void main(String[] args) throws Exception {
+		new CommandDesignPattern();
 	}
 }

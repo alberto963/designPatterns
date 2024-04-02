@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Consumer;
 
-class ErDiagram {
+public class ErDiagram {
 
 	private List<String> entities;
 	private List<ErDiagramBuilder.Relationship> relationships;
@@ -29,7 +29,7 @@ class ErDiagram {
 		return "ErDiagram [entities=" + entities + ", relationships=" + relationships + "]";
 	}
 
-	static class ErDiagramBuilder {
+	public static class ErDiagramBuilder {
 
 		class Relationship {
 			String from;
@@ -52,28 +52,28 @@ class ErDiagram {
 		private List<String> entities;
 		private List<Relationship> relationships;
 
-		ErDiagramBuilder() {
+		public ErDiagramBuilder() {
 			entities = new LinkedList<String>();
 			relationships = new LinkedList<Relationship>();
 		}
 
-		ErDiagramBuilder addEntity(String name) {
+		public ErDiagramBuilder addEntity(String name) {
 			entities.add(name);
 
 			return this;
 		}
 
-		ErDiagramBuilder addRelationship(String from, String to, String name) {
+		public ErDiagramBuilder addRelationship(String from, String to, String name) {
 			relationships.add(new Relationship(from, to, name));
 
 			return this;
 		}
 
-		ErDiagramBuilder addCardMin(String entity, String relation, String value) {
+		public ErDiagramBuilder addCardMin(String entity, String relation, String value) {
 			return this;
 		}
 
-		ErDiagram build() throws InvalidDiagramException {
+		public ErDiagram build() throws InvalidDiagramException {
 			ErDiagram erDiagram = new ErDiagram(this);
 			validateErDiagram(erDiagram);
 

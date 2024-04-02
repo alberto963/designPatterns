@@ -1,22 +1,12 @@
-/**
- *
- */
 package example.designPattern.builder.traceReader;
 
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author apetazzi
- *
- */
 public class SnaTraceReaderDirector {
 
 	private List<TestBuilder> testBuilder;
 
-	/**
-	 *
-	 */
 	public SnaTraceReaderDirector(List<TestBuilder> testBuilder2) {
 		testBuilder = testBuilder2;
 		for (int i = 0; i < 10; i++) {
@@ -31,9 +21,6 @@ public class SnaTraceReaderDirector {
 		}
 	}
 
-	/**
-	 *
-	 */
 	List<UnitTestSuite> getTestSuiteList() {
 		List<UnitTestSuite> ret = new LinkedList<UnitTestSuite>();
 		for (TestBuilder tb : testBuilder) {
@@ -42,5 +29,4 @@ public class SnaTraceReaderDirector {
 
 		return ret;
 	}
-
 }
